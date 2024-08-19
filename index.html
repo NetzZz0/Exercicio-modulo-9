@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo-9 Lista de Tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Afazeres</h1>
+        <button type="button">Nova tarefa+</button>
+    </header>
+    <form class="form-list">
+        <h2>Inserir nova tarefa</h2>
+        <input type="text" id="task" required placeholder="Nomeie nova tarefa">
+        <button id="add-button" type="submit">Adicionar</button>
+        <button id="reset-button" type="reset">Cancelar</button>
+    </form>
+    <div class="conteiner">
+        <ul class="list-task">
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
